@@ -743,7 +743,19 @@ video {
   color: hsl(227 12% 61% / var(--tw-text-opacity));
 }
 
+@media (min-width: 468px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:mb-4 {
     margin-bottom: 1rem;
   }
